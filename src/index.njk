@@ -1,0 +1,142 @@
+---
+layout: base.njk
+title: FileZilla 下载
+description: FileZilla 客户端下载、FTP 与 SFTP 连接、站点管理、文件传输与服务器部署实践内容。
+---
+<section class="hero-split" id="top">
+  <div class="container" style="display:contents">
+    <div class="hero-copy">
+      <span class="eyebrow">FTP · SFTP · FTPS</span>
+      <h1>FileZilla 下载</h1>
+      <p class="hero-lead">面向网站部署、服务器运维与文件同步场景，整理 FileZilla 在 Windows、macOS、Linux 上的安装配置、站点管理、FTP 与 SFTP 传输方法。</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="/dows.html">进入下载中心</a>
+        <a class="btn btn-outline" href="#latest">查看文章更新</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <img src="https://tse-mm.bing.com/th?q=FileZilla%20FTP%20client%20interface" alt="FileZilla FTP 客户端主界面展示" loading="eager" width="480" height="320">
+    </div>
+  </div>
+</section>
+
+<section class="stats-bar" id="overview">
+  <div class="container">
+    <div class="stats-row">
+      <div class="stat-item"><strong>FTP</strong><span>标准文件传输协议</span></div>
+      <div class="stat-item"><strong>SFTP</strong><span>SSH 加密通道传输</span></div>
+      <div class="stat-item"><strong>FTPS</strong><span>SSL/TLS 安全连接</span></div>
+      <div class="stat-item"><strong>跨平台</strong><span>Windows / macOS / Linux</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="platforms">
+  <div class="container">
+    <header class="section-head">
+      <h2>FileZilla 客户端入口</h2>
+    </header>
+    <div class="platform-grid">
+      <article class="platform-card">
+        <a href="/blog/filezilla-windows-install-guide/">
+          <img src="https://tse-mm.bing.com/th?q=FileZilla%20Windows%20FTP%20client" alt="FileZilla Windows 版 FTP 客户端界面" loading="lazy">
+        </a>
+        <div class="platform-body">
+          <h3>Windows 版</h3>
+          <p>适合桌面开发、网站部署与远程文件管理，覆盖安装、站点配置与首次 FTP 连接。</p>
+          <a class="card-link" href="/blog/filezilla-windows-install-guide/">查看安装步骤</a>
+        </div>
+      </article>
+      <article class="platform-card">
+        <a href="/blog/filezilla-macos-install-steps/">
+          <img src="https://tse-mm.bing.com/th?q=FileZilla%20macOS%20SFTP" alt="FileZilla macOS 版 SFTP 传输界面" loading="lazy">
+        </a>
+        <div class="platform-body">
+          <h3>macOS 版</h3>
+          <p>整理芯片兼容、权限确认与拖拽传输，便于本地与云端服务器文件同步。</p>
+          <a class="card-link" href="/blog/filezilla-macos-install-steps/">查看安装步骤</a>
+        </div>
+      </article>
+      <article class="platform-card">
+        <a href="/blog/filezilla-linux-sftp-setup/">
+          <img src="https://tse-mm.bing.com/th?q=FileZilla%20Linux%20FTP%20setup" alt="FileZilla Linux 环境 FTP 配置" loading="lazy">
+        </a>
+        <div class="platform-body">
+          <h3>Linux 环境</h3>
+          <p>连接本地与远程 Linux 主机的 FTP 与 SFTP 基础设置与命令行配合使用。</p>
+          <a class="card-link" href="/blog/filezilla-linux-sftp-setup/">阅读详情</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="features">
+  <div class="container">
+    <header class="section-head">
+      <h2>FileZilla 常用能力</h2>
+    </header>
+    <div class="zigzag">
+      {% set items = [
+        ["站点管理器", "保存多组服务器连接信息，按项目或环境快速切换。"],
+        ["双栏文件浏览", "本地与远程目录并排显示，拖拽即可完成上传下载。"],
+        ["传输队列", "批量文件按队列顺序传输，支持暂停与恢复。"],
+        ["SFTP 加密", "通过 SSH 通道安全传输敏感文件与配置文件。"],
+        ["书签功能", "为常用远程目录创建书签，减少重复导航。"],
+        ["被动模式", "配合防火墙与 NAT 环境完成稳定连接。"],
+        ["目录比较", "对比本地与远程文件差异，便于增量同步。"],
+        ["日志面板", "实时查看连接与传输日志，快速定位问题。"]
+      ] %}
+      {% for item in items %}
+        <article class="zigzag-row">
+          <div class="zigzag-num">{{ loop.index }}</div>
+          <div class="zigzag-body">
+            <h3>{{ item[0] }}</h3>
+            <p>{{ item[1] }}</p>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" id="latest">
+  <div class="container">
+    <header class="section-head">
+      <h2>FileZilla 文章更新</h2>
+    </header>
+    <div class="mosaic">
+      {% for post in collections.posts | sortByDateDesc %}
+        {% if loop.index <= 12 %}
+          <article class="mosaic-card">
+            {% if post.data.heroImage %}
+              <a href="{{ post.url }}">
+                <img src="{{ post.data.heroImage }}" alt="{{ post.data.heroAlt or post.data.title }}" loading="lazy">
+              </a>
+            {% endif %}
+            <div class="mosaic-body">
+              <time class="mosaic-date" datetime="{{ post.date | readableDate }}">{{ post.date | readableDate }}</time>
+              <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+              <p>{{ post.data.description }}</p>
+            </div>
+          </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="catalog-band" id="catalog">
+  <div class="container">
+    <header class="section-head">
+      <h2>内容目录</h2>
+    </header>
+    <nav class="pill-scroll" aria-label="内容目录">
+      {% for cat in collections.publicCategories %}
+        <a href="/categories/{{ cat | categorySlug }}/">{{ cat }}</a>
+      {% endfor %}
+      <a href="/tags/">Tags 聚合</a>
+      <a href="/blog/">全部文章</a>
+    </nav>
+  </div>
+</section>
