@@ -41,6 +41,11 @@ export default function (eleventyConfig) {
     return [...tags].sort((a, b) => a.localeCompare(b, "zh-Hans-CN"));
   });
 
+  eleventyConfig.addTransform("ensure-img-alt", (content, outputPath) => {
+    if (!outputPath || !outputPath.endsWith(".html")) return content;
+    return content.replace(/<img\b((?![^>]*\balt=)[^>]*)>/gi, '<img alt="FileZilla 配图"$1>');
+  });
+
   eleventyConfig.addCollection("publicCategories", (collectionApi) => {
     const categories = new Set();
     collectionApi.getFilteredByGlob("src/blog/*.md").forEach((item) => {

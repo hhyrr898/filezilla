@@ -70,7 +70,7 @@ async function createArticle(ai, index) {
     "The title must start with FileZilla and be a long-tail article title.",
     `Topic direction: ${topic}.`,
     "Body must use h2/h3 headings only, no h1, 650-900 Chinese characters.",
-    "Include one or two markdown images using https://tse-mm.bing.com/th?q=<encoded keyword> format.",
+    "Include one or two markdown images using ![Chinese alt text](https://tse-mm.bing.com/th?q=<encoded keyword>) format; every image must have non-empty Chinese alt text.",
     "Do not include external links, promotional claims, or words: seo, 关键词, 优化, 排名, 收录, 曝光."
   ].join("\n");
 

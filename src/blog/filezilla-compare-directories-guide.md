@@ -13,7 +13,7 @@ heroAlt: "FileZilla 远程日志下载与服务器备份文件拉取 配图"
 
 连接服务器后导航到日志目录，常见路径如 /var/log 或网站 logs 目录。选中需要的日志文件拖拽到本地目录即可下载。
 
-![FileZilla download logs](https://tse-mm.bing.com/th?q=FileZilla%20download%20server%20logs)
+![FileZilla 远程日志下载界面](https://tse-mm.bing.com/th?q=FileZilla%20download%20server%20logs)
 
 ## 备份拉取
 
