@@ -20,15 +20,13 @@ eleventyExcludeFromCollections: true
     <loc>{{ site.url }}/tags/</loc>
     <lastmod>{{ collections.posts[0].date | readableDate }}</lastmod>
   </url>
-  <url>
-    <loc>{{ site.url }}/dows.html</loc>
-    <lastmod>{{ collections.posts[0].date | readableDate }}</lastmod>
-  </url>
 {% for post in collections.posts %}
+{% if not post.data.noindex %}
   <url>
     <loc>{{ site.url }}{{ post.url }}</loc>
     <lastmod>{{ post.date | readableDate }}</lastmod>
   </url>
+{% endif %}
 {% endfor %}
 {% for cat in collections.publicCategories %}
   <url>

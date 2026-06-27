@@ -33,6 +33,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addCollection("publicTags", (collectionApi) => {
     const tags = new Set();
     collectionApi.getFilteredByGlob("src/blog/*.md").forEach((item) => {
+      if (item.data.noindex) return;
       (item.data.tags || []).forEach((tag) => {
         const value = String(tag);
         if (!systemTags.has(value.toLowerCase())) tags.add(value);
@@ -49,6 +50,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addCollection("publicCategories", (collectionApi) => {
     const categories = new Set();
     collectionApi.getFilteredByGlob("src/blog/*.md").forEach((item) => {
+      if (item.data.noindex) return;
       const value = item.data.category;
       if (value) categories.add(String(value));
     });

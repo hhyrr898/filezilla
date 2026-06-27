@@ -3,10 +3,35 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if title and title != site.title %}{{ title }} | FileZilla{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ description or site.description }}">
+    {% set docTitle = title or site.title %}
+    {% set metaDescription = description or site.description %}
+    {% set canonical = site.url + (canonicalUrl or page.url or "/") %}
+    <title>{% if docTitle != site.title %}{{ docTitle }} | FileZilla{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ metaDescription }}">
+    {% if noindex %}
+    <meta name="robots" content="noindex,follow">
+    {% else %}
+    <meta name="robots" content="index,follow,max-image-preview:large">
+    {% endif %}
+    <link rel="canonical" href="{{ canonical }}">
+    <meta property="og:type" content="{% if layout == 'article.njk' %}article{% else %}website{% endif %}">
+    <meta property="og:title" content="{{ docTitle }}">
+    <meta property="og:description" content="{{ metaDescription }}">
+    <meta property="og:url" content="{{ canonical }}">
+    <meta property="og:site_name" content="{{ site.name }}">
+    <meta property="og:locale" content="zh_CN">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/assets/styles.css">
+    <script type="application/ld+json">
+{{ {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": site.name,
+  "url": site.url,
+  "description": site.description
+} | dump | safe }}
+    </script>
   </head>
   <body>
     <header class="site-header">
@@ -41,7 +66,7 @@
         </nav>
       </div>
     </footer>
-    <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-    <script>LA.init({id:"3K7l95Zodr0uFrIN",ck:"3K7l95Zodr0uFrIN"})</script>
+    <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js" defer></script>
+    <script>window.addEventListener("load",function(){if(window.LA){LA.init({id:"3K7l95Zodr0uFrIN",ck:"3K7l95Zodr0uFrIN"})}})</script>
   </body>
 </html>
