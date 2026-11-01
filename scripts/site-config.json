@@ -6,11 +6,11 @@
   "slugPrefix": "filezilla",
   "keywordsPath": "src/keywords.json",
   "linkPool": [
-    "/blogfilezilla-auto-reconnect-settings/",
-    "/blogfilezilla-batch-file-upload/",
-    "/blogfilezilla-bookmark-quick-access/",
-    "/blogfilezilla-certificate-approval/",
-    "/blogfilezilla-compare-directories-guide/"
+    "/blog/filezilla-auto-reconnect-settings/",
+    "/blog/filezilla-batch-file-upload/",
+    "/blog/filezilla-bookmark-quick-access/",
+    "/blog/filezilla-certificate-approval/",
+    "/blog/filezilla-compare-directories-guide/"
   ],
   "minChars": 750,
   "maxChars": 2200,
