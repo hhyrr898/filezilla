@@ -1,5 +1,4 @@
 ---
-noindex: true
 layout: article.njk
 title: "FileZilla 对比 WinSCP：Windows 传输工具怎么选"
 description: "FileZilla 3.68.1 和 WinSCP 6.3.3 我都在用，这篇不吹参数，只讲实操差异。从安装、连接、站点管理到同步与证书处理，列出 4 步对照流程和 3 个常见问题，帮你按需求选对工具。"
