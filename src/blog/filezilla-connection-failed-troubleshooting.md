@@ -1,5 +1,4 @@
 ---
-noindex: true
 layout: article.njk
 title: "FileZilla 连接失败排查：错误码与解决顺序"
 description: "截至 2025 年 3 月，FileZilla 最新稳定版为 3.68.1。本文按错误码给出排查顺序：先看日志再动手，从网络与端口、被动模式、TLS 证书到账号权限逐层缩小范围，配 4 步实操与常见问题，帮你在十分钟内定"
