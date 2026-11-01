@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla 被动模式配置与防火墙端口放行
 description: FileZilla FTP 被动模式原理、端口范围设置与防火墙规则配置详解。

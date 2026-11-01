@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla在Linux环境下配置FTPS安全连接以管理WordPress站点的详细指南
 description: 本指南详细介绍了如何使用FileZilla客户端在Linux服务器上建立FTPS安全连接，从而安全管理WordPress站点文件。文章强调了FTPS相比传统FTP的安全性优势，并提供了配置步骤及常见问题解决方案。

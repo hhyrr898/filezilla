@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla macOS客户端如何高效管理多个WordPress站点文件并充分利用站点管理器功能
 description: 本文详细介绍了FileZilla macOS客户端的安装、配置与使用，重点讲解如何通过其站点管理器功能，便捷、高效地连接和管理您的WordPress网站文件，确保文件传输安全与稳定。

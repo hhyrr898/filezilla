@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla 中文文件名乱码与 UTF-8 编码设置
 description: FileZilla 传输中文文件名出现乱码时的编码设置与服务器字符集配置方法。

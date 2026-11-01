@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla在macOS上如何配置SFTP安全传输并高效解决服务器部署常见问题
 description: 本文详细介绍了FileZilla macOS客户端如何进行SFTP安全传输的配置，包括密钥认证设置，并针对服务器部署过程中可能遇到的连接超时、权限不足及编码问题提供了实用的解决方案。

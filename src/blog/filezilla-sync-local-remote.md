@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla 本地与远程目录对比同步实践
 description: FileZilla 目录比较功能、文件差异识别与增量同步的操作流程。

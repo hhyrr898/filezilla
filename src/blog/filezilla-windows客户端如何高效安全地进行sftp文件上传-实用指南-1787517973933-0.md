@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla Windows客户端如何高效安全地进行SFTP文件上传：实用指南
 description: 本文将为您详细介绍如何使用FileZilla Windows客户端连接SFTP服务器，并高效、安全地进行文件上传操作，包含基本设置、密钥验证与常见问题解答。

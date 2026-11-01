@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla 远程日志下载与服务器备份文件拉取
 description: FileZilla 从远程服务器下载日志文件、数据库备份与配置文件到本地的操作流程。

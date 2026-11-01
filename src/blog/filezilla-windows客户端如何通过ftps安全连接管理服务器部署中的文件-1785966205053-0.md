@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla Windows客户端如何通过FTPS安全连接管理服务器部署中的文件
 description: 本文详细介绍了如何在Windows系统上安装和配置FileZilla客户端，利用FTPS协议实现文件安全传输，并简要探讨了服务器端FTPS部署的关键考虑因素，确保数据传输的完整性和保密性。

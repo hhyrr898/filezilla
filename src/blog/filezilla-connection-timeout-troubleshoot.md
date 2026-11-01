@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla 连接超时与无法列出目录排查
 description: FileZilla FTP 连接超时、无法获取目录列表的常见原因与逐步排查方法。

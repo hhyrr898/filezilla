@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla在Windows客户端上解决FTP连接问题及防火墙配置疑难解答
 description: 本文详细探讨了FileZilla Windows客户端在进行FTP连接时可能遇到的常见问题，包括连接超时、传输中断等，并提供了详细的防火墙配置指导和故障排除技巧，帮助用户顺利完成文件传输任务。

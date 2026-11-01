@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla FTP 连接基础与站点管理器入门
 description: FileZilla FTP 协议选择、端口设置、站点管理器新建站点与连接测试的完整入门指南。

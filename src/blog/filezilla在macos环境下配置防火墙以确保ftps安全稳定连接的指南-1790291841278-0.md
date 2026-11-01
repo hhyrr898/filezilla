@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla在macOS环境下配置防火墙以确保FTPS安全稳定连接的指南
 description: 本文详细指导macOS用户如何为FileZilla客户端配置防火墙，以保障FTPS数据传输的安全性与连接的稳定性。内容涵盖FTPS工作原理、macOS防火墙设置以及提升整体连接安全性的实用建议。

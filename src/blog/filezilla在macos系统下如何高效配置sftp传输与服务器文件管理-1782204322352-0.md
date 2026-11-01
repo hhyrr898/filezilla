@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla在macOS系统下如何高效配置SFTP传输与服务器文件管理
 description: 本文详细介绍了FileZilla macOS客户端如何连接SFTP服务器，进行文件上传下载，以及在服务器部署中利用FileZilla进行日常文件管理和常见问题排查的实用技巧。

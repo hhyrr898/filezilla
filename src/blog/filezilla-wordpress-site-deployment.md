@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla WordPress 站点部署与主题插件上传
 description: FileZilla 通过 FTP 部署 WordPress 主题、插件与媒体文件的实践流程。

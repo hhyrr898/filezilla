@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla 在 macOS 上通过 SFTP 安全连接远程服务器进行文件部署的实战指南
 description: 本文详细介绍了macOS用户如何利用FileZilla客户端，通过SFTP协议安全、高效地管理和部署远程服务器上的文件，包括连接设置、常见问题及最佳实践。

@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla 批量文件上传与文件夹递归传输
 description: FileZilla 批量选择文件、整个文件夹递归上传与传输规则过滤的配置。

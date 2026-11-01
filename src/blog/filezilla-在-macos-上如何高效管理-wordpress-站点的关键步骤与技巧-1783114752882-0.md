@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla 在 macOS 上如何高效管理 WordPress 站点的关键步骤与技巧
 description: 本文详细介绍了如何在 macOS 系统上利用 FileZilla 客户端高效管理 WordPress 网站，包括安装设置、站点管理器配置、文件传输以及常见的维护操作，助您轻松掌控 WordPress 文件。

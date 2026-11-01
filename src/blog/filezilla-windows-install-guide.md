@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla Windows 安装教程与 FTP 首次连接
 description: FileZilla Windows 版安装前检查、安装流程、FTP 首次连接与权限确认说明。

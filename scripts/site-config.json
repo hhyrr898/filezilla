@@ -1,0 +1,26 @@
+{
+  "brand": "FileZilla",
+  "domain": "filezilla-cn.com",
+  "locale": "zh-CN",
+  "blogDir": "src/blog",
+  "slugPrefix": "filezilla",
+  "keywordsPath": "src/keywords.json",
+  "linkPool": [
+    "/blogfilezilla-auto-reconnect-settings/",
+    "/blogfilezilla-batch-file-upload/",
+    "/blogfilezilla-bookmark-quick-access/",
+    "/blogfilezilla-certificate-approval/",
+    "/blogfilezilla-compare-directories-guide/"
+  ],
+  "minChars": 750,
+  "maxChars": 2200,
+  "fm": {
+    "layout": "article.njk",
+    "hasCategory": true,
+    "tagsStyle": "json",
+    "firstTag": null,
+    "permalink": false,
+    "coverKey": "heroImage",
+    "coverDir": "/static/posts/"
+  }
+}

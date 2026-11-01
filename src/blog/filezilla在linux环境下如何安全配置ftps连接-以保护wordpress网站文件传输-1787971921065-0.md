@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla在Linux环境下如何安全配置FTPS连接，以保护WordPress网站文件传输
 description: 本文详细介绍了如何在Linux服务器环境下，使用FileZilla客户端配置安全的FTPS连接，从而有效保护WordPress网站的文件传输安全，避免敏感数据泄露。

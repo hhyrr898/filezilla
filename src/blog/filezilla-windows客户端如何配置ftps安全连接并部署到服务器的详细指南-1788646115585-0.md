@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla Windows客户端如何配置FTPS安全连接并部署到服务器的详细指南
 description: 本文详细介绍了使用FileZilla Windows客户端进行FTPS安全连接的配置步骤，并探讨了在服务器端部署FTPS服务时需要注意的关键安全事项，确保数据传输的机密性和完整性。

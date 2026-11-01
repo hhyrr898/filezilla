@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla 在 Windows 客户端上如何安全配置 FTPS 并部署服务器端实现加密文件传输
 description: 本教程详细指导 FileZilla 用户如何在 Windows 客户端配置安全的 FTPS 连接，以及 FileZilla Server 端 FTPS 的部署关键步骤，确保您的文件传输过程加密且可靠。

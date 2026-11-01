@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla Linux 环境 SFTP 连接与目录权限配置
 description: FileZilla 在 Linux 桌面环境下连接 SFTP 服务器、配置密钥登录与目录权限的方法。

@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla如何高效安全地将WordPress文件上传到服务器：从FTP连接到文件管理完整指南
 description: 本文详细介绍了如何利用FileZilla客户端与WordPress网站进行FTP连接，并高效、安全地上传、管理和维护网站文件，帮助WordPress用户解决常见的上传和权限问题。

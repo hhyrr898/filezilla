@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla Windows客户端FTP连接超时问题：如何检查防火墙设置并快速解决？
 description: 本文详细探讨了FileZilla Windows客户端在FTP连接过程中遇到的常见超时问题，特别是如何诊断并正确配置Windows防火墙及客户端设置，以确保顺畅的文件传输。

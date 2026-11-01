@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla 用户指南：如何在 Windows 客户端上成功建立 FTP 连接并配置防火墙以解决常见连接问题
 description: 本指南将详细介绍如何在 Windows 操作系统上使用 FileZilla 客户端建立稳定的 FTP 连接，并提供有效的防火墙配置建议，以帮助用户解决连接中断或无法连接等常见问题。

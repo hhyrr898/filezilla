@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla 在 macOS 上如何高效管理多个 WordPress 站点文件：一份详细指南
 description: 本文将为 macOS 用户详细介绍如何利用 FileZilla 客户端的高级功能，特别是站点管理器，高效地配置和管理多个 WordPress 网站的文件，涵盖安装、连接设置、常见任务及提升效率的技巧。

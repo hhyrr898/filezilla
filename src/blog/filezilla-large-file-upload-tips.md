@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla 大文件上传技巧与超时重试设置
 description: FileZilla 上传 GB 级大文件时的超时设置、断点续传与网络稳定性保障方法。

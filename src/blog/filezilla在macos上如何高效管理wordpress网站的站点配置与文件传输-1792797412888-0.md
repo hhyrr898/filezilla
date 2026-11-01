@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla在macOS上如何高效管理WordPress网站的站点配置与文件传输
 description: 本文详细介绍了FileZilla在macOS系统上的安装、站点管理器的使用、以及如何高效地进行WordPress网站的文件传输和日常维护，帮助macOS用户轻松管理其网站。

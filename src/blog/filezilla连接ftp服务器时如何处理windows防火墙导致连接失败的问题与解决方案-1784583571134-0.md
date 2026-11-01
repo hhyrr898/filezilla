@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla连接FTP服务器时如何处理Windows防火墙导致连接失败的问题与解决方案
 description: 本文详细介绍了在使用FileZilla Windows客户端连接FTP服务器时，可能遇到的防火墙阻碍问题，并提供了配置Windows防火墙以确保顺畅连接的逐步指南和常见故障排除方法。

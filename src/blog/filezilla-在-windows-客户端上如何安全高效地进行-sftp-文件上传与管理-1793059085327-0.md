@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla 在 Windows 客户端上如何安全高效地进行 SFTP 文件上传与管理
 description: 本文详细介绍了 FileZilla 客户端在 Windows 系统中进行 SFTP 文件上传的步骤，包括连接设置、文件传输操作以及常见问题排查，帮助用户实现安全可靠的数据传输。

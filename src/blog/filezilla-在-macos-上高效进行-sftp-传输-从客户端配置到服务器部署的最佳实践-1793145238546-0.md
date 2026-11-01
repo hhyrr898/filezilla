@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla 在 macOS 上高效进行 SFTP 传输：从客户端配置到服务器部署的最佳实践
 description: 本文将详细介绍 macOS 用户如何利用 FileZilla 客户端进行安全高效的 SFTP 传输，涵盖从客户端安装、配置到服务器端 SFTP 服务部署的关键步骤和实用技巧，确保您的数据传输既便捷又安全。

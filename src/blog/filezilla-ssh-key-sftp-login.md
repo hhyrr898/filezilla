@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla SSH 密钥 SFTP 登录与私钥导入
 description: FileZilla 导入 SSH 私钥、配置 SFTP 密钥认证与安全登录的完整步骤。

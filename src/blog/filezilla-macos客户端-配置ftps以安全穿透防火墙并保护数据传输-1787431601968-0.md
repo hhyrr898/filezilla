@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla macOS客户端：配置FTPS以安全穿透防火墙并保护数据传输
 description: 本文详细介绍了在macOS系统上使用FileZilla客户端时，如何安全高效地配置FTPS连接，以应对防火墙限制并确保敏感数据在传输过程中的加密与完整性。

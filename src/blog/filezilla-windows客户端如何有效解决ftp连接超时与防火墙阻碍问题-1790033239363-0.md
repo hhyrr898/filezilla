@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla Windows客户端如何有效解决FTP连接超时与防火墙阻碍问题
 description: 本文详细介绍了FileZilla Windows客户端用户在进行FTP连接时常遇到的连接超时及防火墙配置问题，并提供了从被动模式设置到Windows防火墙规则配置的全面诊断与解决方案，帮助用户实现顺畅的文件传输。

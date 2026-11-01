@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla 书签功能与常用远程目录快速访问
 description: FileZilla 为远程目录创建书签、快速跳转与书签同步管理的操作指南。

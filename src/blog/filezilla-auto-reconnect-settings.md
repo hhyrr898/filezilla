@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla 自动重连与传输中断恢复配置
 description: FileZilla 连接断开后自动重连、传输任务恢复与重试次数的设置方法。

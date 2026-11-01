@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla SFTP 文件传输与断点续传设置
 description: FileZilla SFTP 加密传输、大文件断点续传、传输模式与速度限制的实用配置方法。

@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla 在 macOS 上如何高效使用 SFTP 连接与管理远程服务器：完整指南
 description: 本文将详细介绍 macOS 用户如何安装和配置 FileZilla 客户端，并利用 SFTP 协议安全高效地连接远程服务器，进行文件传输和管理，涵盖从客户端设置到服务器端连接要点及传输技巧。

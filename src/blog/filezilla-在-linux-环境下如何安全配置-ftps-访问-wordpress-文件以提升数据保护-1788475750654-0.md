@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla 在 Linux 环境下如何安全配置 FTPS 访问 WordPress 文件以提升数据保护
 description: 本文详细介绍了如何在 Linux 服务器上为 WordPress 网站配置安全的 FTPS 服务，并指导用户使用 FileZilla 客户端进行连接与文件管理，确保数据传输过程中的加密与安全，有效保护敏感数据。

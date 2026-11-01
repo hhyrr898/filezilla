@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla 传输队列管理与批量任务调度
 description: FileZilla 传输队列暂停恢复、任务优先级与批量文件传输的队列管理技巧。

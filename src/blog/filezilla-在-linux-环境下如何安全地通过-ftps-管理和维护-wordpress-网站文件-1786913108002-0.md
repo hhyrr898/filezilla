@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla 在 Linux 环境下如何安全地通过 FTPS 管理和维护 WordPress 网站文件
 description: 本文将指导您如何在 Linux 服务器环境下，使用 FileZilla 客户端通过 FTPS 协议安全地连接并管理您的 WordPress 网站文件，避免数据泄露风险，确保网站内容传输的完整性和保密性。

@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla 远程目录权限检查与上传失败处理
 description: FileZilla 上传文件时权限拒绝错误的诊断与远程目录 chmod 权限调整思路。

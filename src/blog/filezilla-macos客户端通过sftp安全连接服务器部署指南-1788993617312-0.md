@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla macOS客户端通过SFTP安全连接服务器部署指南
 description: 本文详细介绍了macOS用户如何使用FileZilla客户端，通过SFTP协议安全地连接远程服务器，进行文件传输和服务器部署操作，涵盖了从安装配置到常见问题解决的全面指南。

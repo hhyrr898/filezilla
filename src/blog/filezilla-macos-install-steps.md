@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla macOS 安装步骤与 SFTP 拖拽传输
 description: FileZilla macOS 版下载安装、权限设置、SFTP 连接与拖拽文件传输操作说明。

@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla 站点管理器多环境分组与快速切换
 description: FileZilla 站点管理器分组整理、多环境站点保存与一键切换连接的实践方法。

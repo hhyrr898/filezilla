@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla FTPS 未知证书信任与证书链验证
 description: FileZilla 连接 FTPS 时遇到未知证书提示的处理与安全验证流程。

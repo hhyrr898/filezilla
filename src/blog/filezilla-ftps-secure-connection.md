@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla FTPS 安全连接与 SSL 证书验证
 description: FileZilla FTPS 显式与隐式加密模式、SSL 证书信任与 TLS 版本选择说明。

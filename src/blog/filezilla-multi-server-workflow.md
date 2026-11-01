@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: FileZilla 多服务器并行管理与标签页切换
 description: FileZilla 同时连接多台服务器、标签页切换与跨服务器文件传输的工作流。
