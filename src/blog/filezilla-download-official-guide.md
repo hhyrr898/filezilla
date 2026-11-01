@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: "FileZilla 下载指南：官方渠道与版本选择"
 description: "很多人搜 FileZilla 下载却下到捆绑包或假官网。这篇按实操流程讲清官方渠道、版本号差异和选择依据：从 3.69.1 这类具体版本说起，给出四步下载验证步骤，并整理 3 个常见问题，帮你避开仿冒站与“收费版”陷阱。"

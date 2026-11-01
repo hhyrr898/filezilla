@@ -1,4 +1,5 @@
 ---
+noindex: true
 layout: article.njk
 title: "FileZilla 连接 FTP 服务器完整教程"
 description: "本文以 FileZilla 3.67.1 为例，手把手演示站点配置、加密方式选择与首次文件传输的完整流程：从站点管理器新建连接、填写主机与登录信息、选用 FTP over TLS 或 SFTP，到本地与远程目录对比传输，"
