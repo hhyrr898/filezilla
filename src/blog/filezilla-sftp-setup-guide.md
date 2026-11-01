@@ -1,5 +1,4 @@
 ---
-noindex: true
 layout: article.njk
 title: "FileZilla SFTP 连接配置实操：密钥与指纹篇"
 description: "以 2024 年 12 月发布的 FileZilla Client 3.68.1 为例，演示如何建立 SFTP 连接、生成并导入密钥、核对首连接指纹，以及私钥权限、指纹变更等常见问题的处理思路。"
