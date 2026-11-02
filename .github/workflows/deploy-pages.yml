@@ -27,12 +27,13 @@ jobs:
 
       - name: Build Eleventy Site
         env:
-          SITE_URL: ${ '{' } vars.SITE_URL != '' && vars.SITE_URL || 'https://filezilla-cn.com' { '}' }
+          SITE_URL: https://filezilla-cn.com
+          SITE_DOMAIN: https://filezilla-cn.com
         run: npm run build
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
-          apiToken: ${ '{' } secrets.CLOUDFLARE_API_TOKEN { '}' }
-          accountId: ${ '{' } secrets.CLOUDFLARE_ACCOUNT_ID { '}' }
-          command: pages deploy _site --project-name=filezilla-cn --commit-dirty=true
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy _site --project-name=filezilla --commit-dirty=true
